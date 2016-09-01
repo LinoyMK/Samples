@@ -8,11 +8,14 @@ namespace StringAndStringBuilder
         {
             LoopString();
 
+            // The heap size object count = 1130
             System.Console.ReadKey();
 
             LoopStringBuilder();
 
             System.Console.ReadKey();
+
+            // The heap size object count = 1131 (1130 + 1) --> means only one object
         }
 
         public static void LoopString()
