@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAwaitAndResult", "TaskAwaitAndWait\TaskAwaitAndResult.csproj", "{72FC3D5C-DE76-4323-8C24-D885D17EA600}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegates", "GenericDelegates\GenericDelegates.csproj", "{F28E3745-AC72-45D0-92C3-C6A0B5841243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTree", "ExpressionTree\ExpressionTree.csproj", "{B34CD84A-BDA0-4DFC-BB0E-47A034F68DE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{72FC3D5C-DE76-4323-8C24-D885D17EA600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FC3D5C-DE76-4323-8C24-D885D17EA600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FC3D5C-DE76-4323-8C24-D885D17EA600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28E3745-AC72-45D0-92C3-C6A0B5841243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28E3745-AC72-45D0-92C3-C6A0B5841243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28E3745-AC72-45D0-92C3-C6A0B5841243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28E3745-AC72-45D0-92C3-C6A0B5841243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34CD84A-BDA0-4DFC-BB0E-47A034F68DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34CD84A-BDA0-4DFC-BB0E-47A034F68DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34CD84A-BDA0-4DFC-BB0E-47A034F68DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34CD84A-BDA0-4DFC-BB0E-47A034F68DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
