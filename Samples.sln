@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvent", "DelegateAndEvent\DelegateAndEvent.csproj", "{F596C1FE-CC67-4B06-9D11-06D0FC2D8DE5}"
 EndProject
@@ -42,6 +42,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TPL", "TPL", "{9AC0686E-4DE1-47B2-8F5A-261CCD65588F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparer", "Comparer\Comparer.csproj", "{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApplication", "MVCApplication\MVCApplication.csproj", "{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -142,6 +146,18 @@ Global
 		{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0}.MyProduction|Any CPU.Build.0 = Release|Any CPU
 		{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58550CA9-1F3F-4AEB-960F-FDB75959F7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE487E87-D2DE-4729-B0AA-D9B0A6FB7409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
