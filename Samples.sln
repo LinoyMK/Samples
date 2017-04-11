@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApplication", "MVCApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyedCollectionTest", "KeyedCollection\KeyedCollectionTest.csproj", "{BE4DAE2A-64A9-4AC1-BC35-34FAED15F791}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextSwitching", "ContextSwitching\ContextSwitching.csproj", "{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -166,6 +168,12 @@ Global
 		{BE4DAE2A-64A9-4AC1-BC35-34FAED15F791}.MyProduction|Any CPU.Build.0 = Release|Any CPU
 		{BE4DAE2A-64A9-4AC1-BC35-34FAED15F791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4DAE2A-64A9-4AC1-BC35-34FAED15F791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,5 +185,6 @@ Global
 		{03657DBE-457B-4947-8AA8-4FA7F0850667} = {2A7F9B32-F7BE-4374-9DE9-8F31A4CC6892}
 		{EAAF23D6-77E5-4A5E-AF19-51C6EF22EB1E} = {2A7F9B32-F7BE-4374-9DE9-8F31A4CC6892}
 		{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0} = {9AC0686E-4DE1-47B2-8F5A-261CCD65588F}
+		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E} = {9AC0686E-4DE1-47B2-8F5A-261CCD65588F}
 	EndGlobalSection
 EndGlobal
