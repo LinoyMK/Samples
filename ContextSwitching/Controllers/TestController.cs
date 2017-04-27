@@ -33,7 +33,7 @@ namespace ContextSwitching.Controllers
             var httpContextAfter = System.Web.HttpContext.Current;
             if (httpContextAfter == null)
             {
-                message = "HttpContext is null after removing the context switching with ConfigureAwait(false)";
+                message = "HttpContext is null";
             }
             else
             {

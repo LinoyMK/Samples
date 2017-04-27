@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyKeyword", "LazyKeyword\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollection.cs", "ConcurrentCollection.cs\ConcurrentCollection.cs.csproj", "{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -190,6 +192,12 @@ Global
 		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.MyProduction|Any CPU.Build.0 = Release|Any CPU
 		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D45190-3C9E-428C-A4B1-A9300E9EFB79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
