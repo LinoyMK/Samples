@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextSwitching", "Context
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyKeyword", "LazyKeyword\LazyKeyword.csproj", "{AA2C9ACD-768B-4FDD-A7D9-F026A5DA4854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollection.cs", "ConcurrentCollection.cs\ConcurrentCollection.cs.csproj", "{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -182,6 +184,12 @@ Global
 		{AA2C9ACD-768B-4FDD-A7D9-F026A5DA4854}.MyProduction|Any CPU.Build.0 = Release|Any CPU
 		{AA2C9ACD-768B-4FDD-A7D9-F026A5DA4854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2C9ACD-768B-4FDD-A7D9-F026A5DA4854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186E6830-0689-4A8C-88D2-0DDF1DC7E8A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
