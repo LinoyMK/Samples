@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvent", "DelegateAndEvent\DelegateAndEvent.csproj", "{F596C1FE-CC67-4B06-9D11-06D0FC2D8DE5}"
 EndProject
@@ -60,6 +60,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpWebClientPerformance", "HttpWebClientPerformance\HttpWebClientPerformance.csproj", "{788A9D9E-5842-43C3-B777-BD5FF7AC9034}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedRedLock", "DistributedRedLock\DistributedRedLock.csproj", "{17ABDB58-8729-4556-A765-09EE4D35E5AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{6CBD34C0-8FB4-4536-B230-7A5C9AC23675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{774507A3-C008-4D24-8C8D-5F9126EDA134}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -214,6 +218,12 @@ Global
 		{17ABDB58-8729-4556-A765-09EE4D35E5AB}.MyProduction|Any CPU.Build.0 = Release|Any CPU
 		{17ABDB58-8729-4556-A765-09EE4D35E5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17ABDB58-8729-4556-A765-09EE4D35E5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.MyProduction|Any CPU.ActiveCfg = Release|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.MyProduction|Any CPU.Build.0 = Release|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774507A3-C008-4D24-8C8D-5F9126EDA134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,5 +236,6 @@ Global
 		{EAAF23D6-77E5-4A5E-AF19-51C6EF22EB1E} = {2A7F9B32-F7BE-4374-9DE9-8F31A4CC6892}
 		{FA4B9CE4-005A-4ADC-B272-3538BF23C9F0} = {9AC0686E-4DE1-47B2-8F5A-261CCD65588F}
 		{B4925BDA-BE66-42DB-8972-B1375FDC4C4E} = {9AC0686E-4DE1-47B2-8F5A-261CCD65588F}
+		{774507A3-C008-4D24-8C8D-5F9126EDA134} = {6CBD34C0-8FB4-4536-B230-7A5C9AC23675}
 	EndGlobalSection
 EndGlobal
